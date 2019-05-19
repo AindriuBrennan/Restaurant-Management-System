@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+  <tabs>
+    <Tab text="Table Options">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <ToolBar prefHeight="40.0" prefWidth="600.0">
+                    <items>
+                        <Button mnemonicParsing="false" text="Add Table" />
+                        <Button mnemonicParsing="false" text="View Tables" />
+                        <Button layoutX="122.0" layoutY="13.0" mnemonicParsing="false" text="Delete Table" />
+                    </items>
+                  </ToolBar>
+                  <TextArea layoutY="40.0" prefHeight="200.0" prefWidth="200.0" />
+               </children></AnchorPane>
+      </content>
+    </Tab>
+    <Tab text="Booking Options">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <ToolBar prefHeight="40.0" prefWidth="600.0">
+                     <items>
+                        <Button mnemonicParsing="false" text="Add Booking" />
+                        <Button mnemonicParsing="false" text="View Bookings" />
+                        <Button layoutX="122.0" layoutY="13.0" mnemonicParsing="false" text="Delete Booking" />
+                        <Button layoutX="197.0" layoutY="13.0" mnemonicParsing="false" text="Update Booking Status" />
+                     </items>
+                  </ToolBar>
+               </children></AnchorPane>
+      </content>
+    </Tab>
+      <Tab text="Menu Options">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <ToolBar prefHeight="40.0" prefWidth="600.0">
+                     <items>
+                        <Button mnemonicParsing="false" text="Add Item to Menu" />
+                        <Button mnemonicParsing="false" text="View Menu" />
+                        <Button layoutX="122.0" layoutY="13.0" mnemonicParsing="false" text="Delete Item" />
+                        <Button layoutX="197.0" layoutY="13.0" mnemonicParsing="false" text="Change Item Price" />
+                     </items>
+                  </ToolBar>
+               </children>
+            </AnchorPane>
+         </content>
+      </Tab>
+      <Tab text="Purchase Options">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <ToolBar prefHeight="40.0" prefWidth="600.0">
+                     <items>
+                        <Button mnemonicParsing="false" text="Add Purchase to Booking" />
+                        <Button mnemonicParsing="false" text="List All Purchases" />
+                     </items>
+                  </ToolBar>
+               </children>
+            </AnchorPane>
+         </content>
+      </Tab>
+      <Tab text="Reset System">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+         </content>
+      </Tab>
+  </tabs>
+</TabPane>
